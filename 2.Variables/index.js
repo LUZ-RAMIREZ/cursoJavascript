@@ -33,5 +33,6 @@ console.log(nombre_de_pais)
 //---------------------------------------------------------------------------------------------------------//
 //CONSTANTE
 const numeroDNI=12345678
-
-confirm
+numeroDNI=458875 // que a diferencia de una variable la constante no se puede mutar
+//o cambiar el dato almacenado
+console.log(numeroDNI)
