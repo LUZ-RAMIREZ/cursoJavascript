@@ -35,3 +35,19 @@ console.log(numero2); // 1
 //la cocina del codigo esta en youtube
 //hosting, scope
 //contexto global y local
+/*---------------------------------------------------------------------------------------------------------*/
+//let su contexto de ejecucion es de bloques o scope
+let nombre='alavaro'
+if(true){
+  console.log(nombre)
+}
+
+if(true){
+  let nombre2='alavaro'
+}
+console.log(nombre2)
+
+if(true){
+  var nombre1='alavaro'
+}
+console.log(nombre1)

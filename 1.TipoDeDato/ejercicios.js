@@ -13,3 +13,19 @@ typeof [1,2,3] // object
 typeof(2); // number
 typeof ('Hello World'); // string
 typeof('foo', 4); // number
+
+/*------------------------------------------------------------------------------------------------*/
+console.log(typeof 'hola')
+console.log(typeof ('hola'))
+console.log(typeof NaN)
+console.log(typeof undefined)
+/*arrays y objeto son tipos de datos, son estructuras*/
+let array=[1,'hola', false] /* array*/
+let objet={
+    edad:45,
+    nombre:'merida',
+    asistio:true
+}/*objecto*/
+console.log(typeof objet)
+
+//averiguar por que array y object
