@@ -12,3 +12,35 @@ una determinada condicion.
 2. condiciones dobles.- vamos a tener dos caminos por realizar, se realiza uno o se realiza el otro pero nunca se
 van realizar los dos en la mism ejecucion del algorimo.
 3. condiciones multiples.- vamos a tener multiples caminos por realizar */
+vocal= "e"
+switch(vocal){
+  case "a":
+    console.log("Es una vocal")
+    break
+  case "e":
+    console.log("Es una vocal")
+    break
+  case "i":
+    console.log("Es una vocal")
+    break
+  case "o":
+    console.log("Es una vocal")
+    break
+  case "u":
+    console.log("Es una vocal")
+    break
+  default:
+    console.log("No es una vocal")
+}
+
+vocal="A"
+switch(vocal){
+  case "A": case "E": case "I": case "O": case "U":
+    console.log(`la letra ${vocal}, es una vocal`)
+    console.log('la letra',vocal,'es una vocal')
+    console.log("la letra",vocal,"es una vocal")
+    console.log("la letra"+ vocal +"es una vocal")
+    break
+  default:
+    console.log('no es vocal')
+}
