@@ -120,7 +120,6 @@ for (let x = 5; x < 7; x++) {
 	console.log(`El factorial de ${x} es ${factorial(x)}`);
 }
 
-
 5!=4*3*2*1
 
 
