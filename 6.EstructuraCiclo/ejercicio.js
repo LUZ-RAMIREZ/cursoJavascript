@@ -106,12 +106,29 @@ for(i=0; i<texto.length; i++){
 console.log('tienes', contador, 'vacales')
 /*methodo*/
 
-/*Hacer un progrma que me muestre el factorial de un numero
-5!=4*3*2*1
-5!=123
-hacer un programa que me determine si un texto es palimdromo
+/*Hacer un progrma que me muestre el factorial de un numero*/
 
-hacer un progrma que me muestre los n primer numeros de la serie de fibonacci
+
+var factorial = numero => {
+	// Sacar valor absoluto
+	numero = Math.abs(numero);
+	if (numero <= 1) return 1;
+	return numero * factorial(numero - 1);
+};
+
+for (let x = 5; x < 7; x++) {
+	console.log(`El factorial de ${x} es ${factorial(x)}`);
+}
+
+
+5!=4*3*2*1
+
+
+
+5!=123
+/*hacer un programa que me determine si un texto es palimdromo*/
+
+/*hacer un progrma que me muestre los n primer numeros de la serie de fibonacci
 1-2-3-5-8-13
 */
 
